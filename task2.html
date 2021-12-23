@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body
+{
+    
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  padding: 10px;
+  background-color:grey;
+}
+
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: blueviolet;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: greenyellow;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+    <center>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Register Page
+    </h1>
+        <hr>
+        <div>
+          <label for="FIRSTNAME"><b>FIRSTNAME</b>
+          <input required type="text" palceholder="ENTER f.n" name="f.n" id="f.n"><br><br>
+          <label for="LASTNAME"><b>LASTNAME</b>
+          <input required type="text" palceholder="ENTER l.n" name="l.n" id="l.n"><br><br>
+         <label for="email"><b>Email</b></label>
+    <input required type="text" placeholder="Enter Email" name="email" id="email"  required ><br><br>
+    <label for="DOB"><b>DOB</b></label>
+    <input required type="date" placeholder="Enter DOB" name="DOB" id="DOB" ><br><br>
+     <label for="psw"><b>Password</b></label>
+    <input required type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+    <label for=""><b>Confirm Password</b></label>
+    <input required type="password" placeholder="Confirm Password" name="Confirm" id="Confirm-pass" required><br>
+    <hr>
+    <button type="submit" class="registerbtn">Register</button>
+  
+ 
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+  
+</form>
+<center>
+
+</body>
+</html>

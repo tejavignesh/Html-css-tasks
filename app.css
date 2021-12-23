@@ -1,0 +1,20 @@
+body{
+    background-color: #1B203A;
+  }
+  h1{
+    color: white;
+  }
+  h1 span{
+    color: rgb(240, 15, 139);
+  }
+  .card{
+    background-color: #3a4fa1;
+    padding: 10px;
+    border:none;
+  }
+  .form-group input{
+    background-color: #252C48;
+    border: none;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+  }
